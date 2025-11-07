@@ -1,0 +1,194 @@
+/* Global Light */
+body.light {
+  --global-palette1: #b711fb;
+  --global-palette2: #a217da;
+  --global-palette3: #000000;
+  --global-palette4: #fcf4ff;
+  --global-palette5: #000000;
+  --global-palette6: #000000;
+  --global-palette7: #fcf4ff;
+  --global-palette8: #fcf4ff;
+  --global-palette9: #fcf4ff;
+  --e-global-color-primary: #000000;
+  --e-global-color-secondary: #000000;
+  --e-global-color-text: #000000;
+}
+
+/* Header */
+body.light .site-header-row-container-inner {
+  background: rgba(252, 244, 255, 0.7) !important;
+}
+
+/* Mobile Menu */
+body.light .mobile-navigation ul li.current-menu-item > a, body.light .mobile-navigation ul li.current-menu-item.menu-item-has-children > .drawer-nav-drop-wrap {
+    background: #b711fb57;
+}
+
+/* Logo */
+body.light :where(.site-branding a.brand img,
+.elementor-404 .elementor-element.elementor-element-d6c8a5e img) {
+    filter: brightness(100) invert(1);
+}
+
+/* Text */
+body.light :where(h4, p, span){
+	color:#323033 !important
+}
+
+/* Sections bg */
+body.light :where(
+  .elementor-10 .elementor-element.elementor-element-2d6cf7f:not(.elementor-motion-effects-element-type-background),
+  .elementor-10 .elementor-element.elementor-element-2d6cf7f > .elementor-motion-effects-container > .elementor-motion-effects-layer,
+  .elementor-10 .elementor-element.elementor-element-2d975c6:not(.elementor-motion-effects-element-type-background),
+  .elementor-10 .elementor-element.elementor-element-2d975c6 > .elementor-motion-effects-container > .elementor-motion-effects-layer,
+  .elementor-404 .elementor-element.elementor-element-814a94b:not(.elementor-motion-effects-element-type-background),
+  .elementor-404 .elementor-element.elementor-element-814a94b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+  background-color: #fcf4ff !important;
+}
+
+body.light .elementor-934 .elementor-element.elementor-element-f1004d5:not(.elementor-motion-effects-element-type-background)),
+body.light .elementor-10 .elementor-element.elementor-element-da86d48,
+body.light .elementor-934 .elementor-element.elementor-element-b5ffa9b:not(.elementor-motion-effects-element-type-background),
+body.light .elementor-934 .elementor-element.elementor-element-b5ffa9b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+  background-color: #f6e7fc !important;
+}
+
+body.light :where(
+  .elementor-934 .elementor-element.elementor-element-631a2b4:not(.elementor-motion-effects-element-type-background),
+  .elementor-926 .elementor-element.elementor-element-992a735) {
+  background: #fcf4ff !important;
+}
+
+body.light :where(
+  .elementor-926 .elementor-element.elementor-element-0908072:not(.elementor-motion-effects-element-type-background),
+  .elementor-809 .elementor-element.elementor-element-0908072:not(.elementor-motion-effects-element-type-background),
+  .elementor-934 .elementor-element.elementor-element-0908072:not(.elementor-motion-effects-element-type-background),
+){
+	  background-image: url(https://mediumvioletred-crocodile-859420.hostingersite.com/wp-content/uploads/2025/11/Frame-4.png) !important;
+
+}
+
+/* Reviews */
+body.light .elementor-10 .elementor-element.elementor-element-56be57c .wpr-testimonial-item,
+body.light .elementor-10 .elementor-element.elementor-element-39b85f8{
+    background-color: #f2e3f78c;
+	background-image:unset
+}
+
+body.light .hero:after {
+  background: linear-gradient(356.73deg, #FCF4FF 9.01%, rgba(252, 244, 255, 0) 16.03%, rgba(255, 255, 255, 0) 97.5%);
+}
+
+/* Form */
+body.light .forminator-ui#forminator-module-353.forminator-design--default .forminator-label {
+    color: #000;
+}
+/* Form 2 */
+body.light .elementor-809 .elementor-element.elementor-element-212428d{
+	background-color:#f7ebfb;
+	background-image:unset
+}
+
+body.light .forminator-ui#forminator-module-353.forminator-design--default .forminator-textarea,
+body.light .forminator-ui#forminator-module-353.forminator-design--default .forminator-input {
+    border-color: #000;
+    background-color: rgba(0,0,0,0);
+    color: #000;
+}
+
+/* Services Page */
+body.light .elementor-926 .elementor-element.elementor-element-b1e1114:not(.elementor-motion-effects-element-type-background), .elementor-926 .elementor-element.elementor-element-b1e1114 > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+	background-image:url(https://mediumvioletred-crocodile-859420.hostingersite.com/wp-content/uploads/2025/11/2.jpg)
+}
+
+/* Footer */
+body.light .elementor-404 .elementor-element.elementor-element-8ff6ced:not(.elementor-motion-effects-element-type-background) {
+    background-color: #00000005 !important;
+}
+/* Social Icons */
+body.light .elementor-404 .elementor-element.elementor-element-5f7046f .elementor-social-icon svg{
+	fill:#fff
+}
+
+/* Buttons */
+body.light :where(.forminator-button,
+.btn,
+.btn2,
+.btn3,
+a.button.header-button.button-size-custom.button-style-filled),
+.forminator-ui.forminator-custom-form[data-design="default"] .forminator-button{
+  background-image: url("https://mediumvioletred-crocodile-859420.hostingersite.com/wp-content/uploads/2025/11/0.png");
+}
+
+.elementor-element-84c5724 span.elementor-button-text,
+.elementor-element-e1ad5c5 span.elementor-button-text,
+.elementor-element-c17f88d span.elementor-button-text,
+.elementor-element-3436c8c span.elementor-button-text,
+.elementor-element-0d63b82 span.elementor-button-text{
+    color: #fff !important;
+}
+
+body.light #main-header .header-button {
+  color:#000;
+  background-image: url("https://mediumvioletred-crocodile-859420.hostingersite.com/wp-content/uploads/2025/11/1.png") !important;
+}
+
+body.light .forminator-ui#forminator-module-353.forminator-design--default .forminator-select2 + .forminator-select .selection .select2-selection--single[role="combobox"] {
+    border-color: #FFFFFF66;
+    background-color: #19111c14;
+}
+
+
+/* Switch */
+.mobile-toggle-open-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-button-wrap {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.theme-switch {
+  display: inline-block;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-label {
+  background-color: #111;
+  width: 60px;
+  height: 30px;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.checkbox-label i {
+  color: #f1c40f;
+  font-size: 14px;
+}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(30px);
+}
