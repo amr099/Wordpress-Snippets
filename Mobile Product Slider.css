@@ -1,0 +1,14 @@
+@media(max-width:480px){
+.home  ul.products {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: scroll;
+}
+
+.home li.product {
+    min-width: 50%;
+}
+.home	 .button:not(.kb-button) {
+    font-size: 14px;
+}
+}
